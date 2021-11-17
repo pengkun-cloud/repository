@@ -12,4 +12,10 @@ public class DemoController {
 
         return "success";
     }
+
+    @RequestMapping("demo")
+    public String demo(){
+
+        return "demo";
+    }
 }
